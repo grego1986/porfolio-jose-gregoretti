@@ -17,7 +17,7 @@ const Contacto = () => {
 
         {/* Opcionales para personalizar comportamiento */}
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="http://localhost:5173/gracias" />
+        <input type="hidden" name="_next" value="https://grego1986.github.io/porfolio-jose-gregoretti/gracias" />
       </form>
     </section>
   );
