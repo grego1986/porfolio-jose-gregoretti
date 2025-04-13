@@ -1,0 +1,12 @@
+.gracias-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem rem;
+    gap: 1rem;
+    background-color: #121212;
+    color: #fff;
+    box-sizing: border-box;
+    overflow: auto;
+}

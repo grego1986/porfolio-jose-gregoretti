@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .foto-perfil {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .btn {
+    background-color: #66fcf1;
+    color: #121212;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 transparent;
+  }
+  
+  .btn:hover {
+    background-color: #45c4b0;
+    box-shadow: 0 4px 12px rgba(102, 252, 241, 0.3);
+    transform: translateY(-2px);
+  }
+  

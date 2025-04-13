@@ -1,0 +1,76 @@
+.habilidades-container {
+    padding: 2rem;
+    color: white;
+    background-color: #121212;
+    text-align: center;
+  }
+
+  .columnas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .columna {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+  
+  .barra-habilidad {
+    margin-bottom: 1rem;
+  }
+  
+  .barra-habilidad span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .barra-fondo {
+    background-color: #333;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .barra-relleno {
+    background: linear-gradient(90deg, #00e6e6, #66ffff);
+    height: 20px;
+    border-radius: 20px;
+    width: 0%; /* se animará al valor final */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 8px;
+    color: black;
+    font-size: 0.85rem;
+    transition: width 1s ease-out;
+  }
+  .icono-categoria {
+    margin-right: 8px;
+    vertical-align: middle;
+    color: #00e6e6;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  
+  h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #66fcf1;
+    transition: width 0.3s ease;
+  }
+  
+  h2:hover::after {
+    width: 100%;
+  }

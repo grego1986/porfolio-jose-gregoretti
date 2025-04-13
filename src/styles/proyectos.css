@@ -1,0 +1,38 @@
+.proyectos-section {
+    padding: 1rem;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+  }
+  
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  
+  h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #66fcf1;
+    transition: width 0.3s ease;
+  }
+  
+  h2:hover::after {
+    width: 100%;
+  }
+  
+  .proyectos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
