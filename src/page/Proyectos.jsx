@@ -31,8 +31,8 @@ const listaProyectos = [
 '¡Gracias por tomarte el tiempo de explorarlo!'],
     tecnologias: [<FaReact title="React" />, <FaHtml5 title="html" />, <FaBootstrap title="Java" />, <FaCss3 title="css3"/>],
     imagenes: [home, tecno, project],
-    repo: 'https://github.com/tuusuario/portfolio',
-    demo: 'https://tuusuario.github.io/portfolio'
+    repo: 'https://github.com/grego1986/porfolio-jose-gregoretti.git',
+    demo: null
   },
   // Agregá más proyectos si querés
 ];
